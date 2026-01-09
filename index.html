@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio de Tatuajes | Ink Art</title>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Collage (Container) -->
+    <div id="background-collage"></div>
+    <div class="overlay-gradient"></div>
+
+    <!-- Header Fixed -->
+    <header id="header">
+        <div class="logo-container">
+            <img src="images/logonegro-fondoblanco.jpeg" alt="Logo Tatuador" class="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#estilos">Estilos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor Principal (Todo en uno) -->
+    <main>
+
+        <!-- Sección Hero (Inicio) -->
+        <section id="inicio" class="hero-section">
+                        <div class="hero-collage hidden-right">
+                <div class="collage-item main"><img src="images/tatuadortomandomates.jpeg" alt="Tatuador en el estudio"></div>
+                <div class="collage-item"><img src="images/tatuadordefrente.jpeg" alt="Tatuador"></div>
+                <div class="collage-item"><img src="images/logocalavera-fondoblanco.jpeg" alt="Detalle Tatuaje"></div>
+            </div>
+            <div class="hero-content hidden-bottom">
+                <h1>Arte en la Piel</h1>
+                <p>Transformando historias en tinta eterna.</p>
+                <a href="#contacto" class="cta-btn">Reservar Cita</a>
+            </div>
+
+        </section>
+        
+        <!-- Estilo 1: Realismo (Izquierda Texto, Derecha Imagen) -->
+        <div id="estilos" class="scroll-section row-layout">
+            <div class="text-content hidden-right">
+                <h2>Realismo</h2>
+                <div class="linea-decorativa"></div>
+                <p>Capturamos la esencia de la realidad. Retratos, naturaleza y objetos con un nivel de detalle fotográfico, trabajando sombras y luces para crear profundidad inigualable.</p>
+            </div>
+            <div class="image-content hidden-right">
+                <img src="images/tatuajeantebrazo.jpeg" alt="Tatuaje Realismo">
+            </div>
+        </div>
+
+        <!-- Estilo 2: Blackwork (Derecha Texto, Izquierda Imagen) -->
+        <div class="scroll-section row-layout reverse">
+            <div class="text-content hidden-left">
+                <h2>Blackwork</h2>
+                <div class="linea-decorativa"></div>
+                <p>La fuerza del negro puro. Diseños que utilizan altos contrastes, geometría sagrada o ilustraciones oscuras donde la tinta negra es la única protagonista.</p>
+            </div>
+            <div class="image-content hidden-left">
+                <img src="images/tatuajebrazo1.jpeg" alt="Tatuaje Blackwork">
+            </div>
+        </div>
+
+        <!-- Estilo 3: Neotradicional (Centrado) -->
+        <div class="scroll-section row-layout">
+            <div class="text-content hidden-right">
+                <h2>Neotradicional</h2>
+                <div class="linea-decorativa center"></div>
+                <p>La evolución del clásico. Líneas variadas, paletas de colores más amplias y motivos ilustrativos con influencias del Art Nouveau y el estilo decorativo.</p>
+            </div>
+            <div class="image-content hidden-right">
+                <img src="images/tatuajebrazopierna.jpeg" alt="Tatuaje Neotradicional">
+            </div>
+        </div>
+
+        <!-- Estilo 4: Japonés Tradicional (Izquierda Texto, Derecha Imagen) -->
+        <div class="scroll-section row-layout reverse">
+            <div class="text-content hidden-left">
+                <h2>Japonés Tradicional</h2>
+                <div class="linea-decorativa"></div>
+                <p>Irezumi. Dragones, carpas koi, máscaras Hannya. Una composición fluida que respeta las formas del cuerpo, contando leyendas milenarias con colores vibrantes.</p>
+            </div>
+            <div class="image-content hidden-left">
+                <img src="images/tatuajeespalda.jpeg" alt="Tatuaje Japonés">
+            </div>
+        </div>
+
+        <!-- Galería Final -->
+        <section id="galeria" class="gallery-section">
+            <h2 class="section-title hidden-bottom">Trabajos Recientes</h2>
+            <div class="gallery-grid">
+                <!-- Usando el resto de imagenes y repitiendo para efecto grilla -->
+                <div class="gallery-item hidden-fade"><img src="images/tatuajebrazo2.jpeg" alt="Tatuaje 1"></div>
+                <div class="gallery-item hidden-fade"><img src="images/tatuajehombro.jpeg" alt="Tatuaje 2"></div>
+                <div class="gallery-item hidden-fade"><img src="images/tatuajeantebrazo.jpeg" alt="Tatuaje 3"></div>
+                <div class="gallery-item hidden-fade"><img src="images/tatuajebrazo3.jpeg" alt="Tatuaje 4"></div>
+                <div class="gallery-item hidden-fade"><img src="images/tatuajeespalda.jpeg" alt="Tatuaje 5"></div>
+                <div class="gallery-item hidden-fade"><img src="images/tatuajebrazo1.jpeg" alt="Tatuaje 6"></div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact-section">
+            <div class="contact-container hidden-bottom">
+                <h2>Contacto & Citas</h2>
+                <p>¿Tienes una idea? Hablemos.</p>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Tu Email">
+                    <textarea placeholder="Cuéntame tu idea..."></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Zech Studio. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón Whatsapp Flotante -->
+    <a href="https://wa.me/5493462334496" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
