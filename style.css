@@ -137,10 +137,11 @@ img {
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    color: var(--text-secondary);
+    font-size: 1.6rem;
+    color: white;
     margin-bottom: 40px;
     max-width: 500px;
+    text-align: center;
 }
 
 .cta-btn {
@@ -254,7 +255,7 @@ img {
 
 .text-content p {
     color: var(--text-secondary);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.8;
 }
 

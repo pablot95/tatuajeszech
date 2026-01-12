@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google Analytics (gtag.js) -->
+    <!-- REEMPLAZA 'G-TU_ID_AQUI' CON EL ID DE MEDICIÓN QUE TE PASE EL CLIENTE -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TU_ID_AQUI"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TU_ID_AQUI');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio de Tatuajes | Ink Art</title>
@@ -44,9 +54,8 @@
                 <div class="collage-item"><img src="images/logocalavera-fondoblanco.jpeg" alt="Detalle Tatuaje"></div>
             </div>
             <div class="hero-content hidden-bottom">
-                <h1>Arte en la Piel</h1>
-                <p>Transformando historias en tinta eterna.</p>
-                <a href="#contacto" class="cta-btn">Reservar Cita</a>
+                <p>¡Hola! Mi nombre es Juan Ignacio, soy tatuador especializado en realismo black and grey. Trabajo piezas de alta complejidad con un enfoque técnico y artístico, desarrollando cada proyecto de forma personalizada, desde la idea inicial hasta el resultado final.</p>
+                <a href="#galeria" class="cta-btn">Ver trabajos</a>
             </div>
 
         </section>
@@ -56,46 +65,46 @@
             <div class="text-content hidden-right">
                 <h2>Realismo</h2>
                 <div class="linea-decorativa"></div>
-                <p>Capturamos la esencia de la realidad. Retratos, naturaleza y objetos con un nivel de detalle fotográfico, trabajando sombras y luces para crear profundidad inigualable.</p>
+                <p>Enfoque en expresión, textura y fidelidad. Cada retrato se trabaja con especial atención al carácter y a la anatomía.</p>
             </div>
             <div class="image-content hidden-right">
                 <img src="images/tatuajeantebrazo.jpeg" alt="Tatuaje Realismo">
             </div>
         </div>
 
-        <!-- Estilo 2: Blackwork (Derecha Texto, Izquierda Imagen) -->
+        <!-- Estilo 2: Black and Grey (Derecha Texto, Izquierda Imagen) -->
         <div class="scroll-section row-layout reverse">
             <div class="text-content hidden-left">
-                <h2>Blackwork</h2>
+                <h2>Black and Grey</h2>
                 <div class="linea-decorativa"></div>
-                <p>La fuerza del negro puro. Diseños que utilizan altos contrastes, geometría sagrada o ilustraciones oscuras donde la tinta negra es la única protagonista.</p>
+                <p>Contrastes profundos, grises controlados y lectura precisa de luz y sombra. Piezas con profundidad, volumen y longevidad en la piel.</p>
             </div>
             <div class="image-content hidden-left">
-                <img src="images/tatuajebrazo1.jpeg" alt="Tatuaje Blackwork">
+                <img src="images/tatuajebrazo1.jpeg" alt="Tatuaje Black and Grey">
             </div>
         </div>
 
-        <!-- Estilo 3: Neotradicional (Centrado) -->
+        <!-- Estilo 3: Mi Espacio (Centrado) -->
         <div class="scroll-section row-layout">
             <div class="text-content hidden-right">
-                <h2>Neotradicional</h2>
-                <div class="linea-decorativa center"></div>
-                <p>La evolución del clásico. Líneas variadas, paletas de colores más amplias y motivos ilustrativos con influencias del Art Nouveau y el estilo decorativo.</p>
+                <h2>Mi Espacio</h2>
+                <div class="linea-decorativa"></div>
+                <p>Trabajo en ARTERIA, un estudio minimalista y elegante ubicado en el centro de la ciudad, dentro de un hotel 4.5 estrellas. Un espacio pensado para desarrollar proyectos con comodidad, privacidad y foco absoluto en el proceso.</p>
             </div>
             <div class="image-content hidden-right">
-                <img src="images/tatuajebrazopierna.jpeg" alt="Tatuaje Neotradicional">
+                <img src="images/estudio.jpeg" alt="Estudio Arteria">
             </div>
         </div>
 
-        <!-- Estilo 4: Japonés Tradicional (Izquierda Texto, Derecha Imagen) -->
+        <!-- Estilo 4: Proyectos de Gran Escala (Izquierda Texto, Derecha Imagen) -->
         <div class="scroll-section row-layout reverse">
             <div class="text-content hidden-left">
-                <h2>Japonés Tradicional</h2>
+                <h2>Proyectos de Gran Escala</h2>
                 <div class="linea-decorativa"></div>
-                <p>Irezumi. Dragones, carpas koi, máscaras Hannya. Una composición fluida que respeta las formas del cuerpo, contando leyendas milenarias con colores vibrantes.</p>
+                <p>Brazos completos, espaldas y composiciones integrales pensadas como una sola obra.</p>
             </div>
             <div class="image-content hidden-left">
-                <img src="images/tatuajeespalda.jpeg" alt="Tatuaje Japonés">
+                <img src="images/tatuajeespalda.jpeg" alt="Tatuaje Gran Escala">
             </div>
         </div>
 
@@ -116,8 +125,8 @@
         <!-- Contacto -->
         <section id="contacto" class="contact-section">
             <div class="contact-container hidden-bottom">
-                <h2>Contacto & Citas</h2>
-                <p>¿Tienes una idea? Hablemos.</p>
+                <h2>Empezá tu proyecto</h2>
+                <p>Completá el formulario con tu idea, referencias y zona a tatuar. Voy a evaluar el proyecto y coordinar una consulta para desarrollarlo en detalle.</p>
                 
                 <form class="contact-form">
                     <input type="text" placeholder="Tu Nombre">

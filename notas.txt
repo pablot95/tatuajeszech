@@ -1,6 +1,3 @@
-vamos a hacer una pagina para un tatuador. html css y js, usa de internet la informacion y fotos que necesites.
-Estructura de la pagina, no va a estar divididad por secciones, va a ser todo una gran seccion grande y larga. Van a predominar los colores oscuros, tirando a azul oscuro. Usa las imagenes de la carpeta images y otras de internet. Busca en internet distintas clasificaciones de tatuajes y sus resptectivos ejemplos. 
-Quiero que sea algo asi: fondo oscuro, toda la pagina. Header transparente con letras blancas, fixed. a medida que scrolleamos, van apareciendo imagenes, con sus respectivas categorias. Aparecen de izquierda y de derecha. En algunos casos que solo haya una por linea.
-y despues a lo ultimo haya un display de varias fotos de tatuajes.
-Y despues de eso un contacto.
-Inclui el boton de wsp abajo a la derecha: +54 9 3462 33-4496
+En la sección de “mi espacio” para mostrar un poco el estudio . Me gustaría esta foto
+
+
