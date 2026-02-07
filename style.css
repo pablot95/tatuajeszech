@@ -446,6 +446,21 @@ footer {
     font-size: 0.9rem;
 }
 
+.footer-signature {
+    margin-top: 10px;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.footer-signature a {
+    color: var(--text-secondary);
+    transition: color 0.3s ease;
+}
+
+.footer-signature a:hover {
+    color: var(--accent);
+}
+
 /* --- WhatsApp Button --- */
 .whatsapp-float {
     position: fixed;
