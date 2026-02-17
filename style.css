@@ -83,7 +83,6 @@ img {
     object-fit: cover;
 }
 
-/* --- Navigation --- */
 #header {
     position: fixed;
     top: 0;
@@ -102,7 +101,6 @@ img {
     background-color: var(--dark-blue-overlay); /* Ensure readability */
 }
 
-/* On mobile, override these explicitly */
 @media (max-width: 768px) {
     #header, #header.scrolled {
         padding: 15px 20px; /* Keep mobile padding constant or slightly reduced */
@@ -141,7 +139,6 @@ img {
     z-index: 1001;
 }
 
-/* --- Hero Section --- */
 .hero-section {
     min-height: 100vh;
     display: flex;
@@ -207,7 +204,6 @@ img {
     z-index: 5;
 }
 
-/* The main big image on the left */
 .collage-item.main {
     grid-row: 1 / -1; /* Spans both rows */
 }
@@ -226,9 +222,6 @@ img {
     filter: sepia(0%) contrast(1.2);
 }
 
-/* Responsive fix for collage was here - moved to bottom */
-
-/* Small phones extra tweak */
 @media (max-width: 400px) {
      .gallery-grid {
         grid-template-columns: 1fr; /* 1 column for very small screens */
@@ -309,7 +302,6 @@ img {
     height: 100%;
 }
 
-/* Center Layout */
 .center-layout {
     flex-direction: column;
     text-align: center;
@@ -325,7 +317,6 @@ img {
     transition: 0.5s;
 }
 
-/* --- Gallery Grid --- */
 .gallery-section {
     padding: 100px 5%;
     background-color: var(--bg-darker);
@@ -364,7 +355,6 @@ img {
     transform: scale(1.1);
 }
 
-/* --- Contact Section --- */
 .contact-section {
     padding: 100px 10%;
     text-align: center;
@@ -461,7 +451,6 @@ footer {
     color: var(--accent);
 }
 
-/* --- WhatsApp Button --- */
 .whatsapp-float {
     position: fixed;
     width: 60px;
@@ -486,7 +475,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* --- Animation Classes (Intersection Observer) --- */
 .hidden-left {
     opacity: 0;
     transform: translateX(-100px);
@@ -521,9 +509,6 @@ footer {
     transform: translateX(0) translateY(0) scale(1);
 }
 
-/* Mobile Responsive block moved to mid-file */
-
-/* --- Responsive Design (Fixed & Moved to Bottom) --- */
 @media (max-width: 768px) {
     /* Navigation */
     #header {
